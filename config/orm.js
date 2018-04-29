@@ -62,9 +62,9 @@ var orm = {
             cb(result);
         });
     },
-    // Delete/eat a burger from the db.
+    // Set burger devoured status to true.
     updateOne: function(table, objColVals, condition, cb) {
-        var queryString = "UPDATE" + table;
+        var queryString = "UPDATE " + table;
         queryString += " SET ";
         queryString += objToSql(objColVals);
         queryString += " WHERE ";

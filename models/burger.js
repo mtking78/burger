@@ -14,7 +14,7 @@ var burger = {
             cb(res);
         });
     },
-    // Eat/delete a burger from the db.
+    // Change the devoured status to true.
     updateOne: function(objColVals, condition, cb) {
         orm.updateOne("burgers", objColVals, condition, function(res) {
             cb(res);
