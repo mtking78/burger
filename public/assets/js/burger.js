@@ -25,7 +25,6 @@ $(function() {
         event.preventDefault();
 
         var id = $(this).data("id");
-        //var newDevoured = $(this).data("newDevoured");
         var devouredState = {
             devoured: 1
         };
@@ -38,6 +37,18 @@ $(function() {
             console.log("Burger devoured");
             location.reload();
         });
+    });
+
+    $(".trashburger").on("click", function(event) {
+        event.preventDefault();
+
+        var id = $(this).data("id");
+
+        // Send the DELETE request.
+        $.ajax({
+            type: "DELETE",
+            url: "/api/burgers/" + id
+        }).then(location.reload());
     });
 
 })
