@@ -1,7 +1,7 @@
 # Node, Express, MySQL, and Handlebars app "Burgers"
 ![](readme_images/burger.jpg)
 
-### A dating app that uses Express to handle routing where a user's survey is used to determine their 'best match' from other dummy or user submitted surveys.
+### A simple CRUD app that uses handlebars, Express, and MySQL to manipulate a "burger" database.
 ## [Link to Live Heroku Page](https://mighty-atoll-63849.herokuapp.com/)
 ------------------------------------------------------------------------------------------
 This is an app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger in `New Burgers`, the left side of the page. Each burger in the waiting area also has a button, that when clicked, will move the burger to `Devoured`, the right side of the page.
