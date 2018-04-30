@@ -1,0 +1,28 @@
+.jumbotron {
+    background-image: url("/assets/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#color-override {
+    color: #fff;
+}
+
+#lefthead {
+    background-color: rgb(20, 202, 44);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#eatbutton {
+    float: right;
+}
+
+#righthead {
+    background-color: rgb(224, 133, 28);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
