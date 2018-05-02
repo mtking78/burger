@@ -5,6 +5,13 @@ $(function() {
     $(".create-form").on("submit", function(event) {
         event.preventDefault();
 
+        //var isValid = true;
+        if ($("#newburger").val() === "") {
+            //isValid = false;
+            $("#inputModal").modal("show");
+            return;
+        }
+
         var newBurger = {
             burger_name: $("#newburger").val().trim(),
             devoured: 0
