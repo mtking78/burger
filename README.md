@@ -30,3 +30,6 @@ This app uses the MVC Directory design:
 * [express-handlebars]
 * [body-parser]
 * [mysql]
+
+### Todo
+- [ ] Validate to prevent blank or non-alphanumeric entries.
